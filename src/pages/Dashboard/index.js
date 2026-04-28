@@ -12,7 +12,7 @@ const Dashboard = () => {
     <React.Fragment>
       <div className="page-content">
         <Container fluid>
-          <Breadcrumbs title="Minible" breadcrumbItem="Dashboard" />
+          <Breadcrumbs title="Minible" breadcrumbItem="Feedxchange Dashboard" />
         </Container>
       </div>
     </React.Fragment>
