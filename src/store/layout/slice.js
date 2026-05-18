@@ -14,7 +14,7 @@ const INIT_STATE = {
   layoutWidth: layoutWidthTypes.FLUID,
   leftSideBarTheme: leftSideBarThemeTypes.LIGHT,
   topbarTheme: topBarThemeTypes.LIGHT,
-  sidebarSizeType: sidebarSizeTypes.DEFAULT,
+  sidebarSizeType: sidebarSizeTypes.ICON,
   isPreloader: false,
   showRightSidebar: false,
   isMobile: false,

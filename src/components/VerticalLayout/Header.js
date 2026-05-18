@@ -12,7 +12,6 @@ import { Dropdown, DropdownToggle, DropdownMenu } from "reactstrap"
 // Import menuDropdown
 import NotificationDropdown from "../CommonForBoth/TopbarDropdown/NotificationDropdown"
 import ProfileMenu from "../CommonForBoth/TopbarDropdown/ProfileMenu"
-
 import logoSm from "../../assets/images/logo-sm.png"
 import logoDark from "../../assets/images/logo-dark.png"
 import logoLight from "../../assets/images/logo-light.png"
