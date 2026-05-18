@@ -1,16 +1,18 @@
-import { createStore, applyMiddleware, compose } from "redux"
-import createSagaMiddleware from "redux-saga"
+import { configureStore } from "@reduxjs/toolkit"
+import loginReducer from "./auth/login/reducer"
+import accountReducer from "./auth/register/reducer"
+import forgetPasswordReducer from "./auth/forgetpwd/reducer"
+import profileReducer from "./auth/profile/reducer"
+import layoutReducer from "./layout/reducer"
 
-import rootReducer from "./reducers"
-import rootSaga from "./sagas"
-
-const sagaMiddleware = createSagaMiddleware()
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
-
-const store = createStore(
-  rootReducer,
-  composeEnhancers(applyMiddleware(sagaMiddleware))
-)
-sagaMiddleware.run(rootSaga)
+const store = configureStore({
+  reducer: {
+    Login: loginReducer,
+    Account: accountReducer,
+    ForgetPassword: forgetPasswordReducer,
+    Profile: profileReducer,
+    Layout: layoutReducer,
+  },
+})
 
 export default store

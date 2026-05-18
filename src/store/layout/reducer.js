@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // @flow
 import {
   CHANGE_LAYOUT,
@@ -99,3 +100,6 @@ const Layout = (state = INIT_STATE, action) => {
 };
 
 export default Layout;
+=======
+export { default } from "./slice"
+>>>>>>> 5005980310d2179408cfbc6b5646258566cb45fe
