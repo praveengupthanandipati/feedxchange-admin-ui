@@ -2,7 +2,7 @@ import PropTypes from "prop-types"
 import React, { useState } from "react"
 
 import { connect } from "react-redux"
-import { Form, Input, Button, Row, Col } from "reactstrap"
+// import { Form, Input, Button, Row, Col } from "reactstrap"
 
 import { Link } from "react-router-dom"
 
@@ -77,19 +77,19 @@ const Header = props => {
             <div className="navbar-brand-box">
               <Link to="/" className="logo logo-dark">
                 <span className="logo-sm">
-                  <img src={logoSm} alt="" height="22" />
+                  <img src={logoSm} alt="" height="35" />
                 </span>
                 <span className="logo-lg">
-                  <img src={logoDark} alt="" height="20" />
+                  <img src={logoDark} alt="" height="32" />
                 </span>
               </Link>
 
               <Link to="/" className="logo logo-light">
                 <span className="logo-sm">
-                  <img src={logoSm} alt="" height="22" />
+                  <img src={logoSm} alt="" height="32" />
                 </span>
                 <span className="logo-lg">
-                  <img src={logoLight} alt="" height="20" />
+                  <img src={logoLight} alt="" height="32" />
                 </span>
               </Link>
             </div>
